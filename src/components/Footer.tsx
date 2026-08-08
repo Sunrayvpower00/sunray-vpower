@@ -41,10 +41,10 @@ export default function Footer() {
             <div className="mt-5 space-y-3">
 
               <Link
-                href="/"
+                href="/#hero"
                 className="block text-gray-400 transition hover:text-orange-500"
-              >
-                Home
+                >
+                    Home
               </Link>
 
               <Link
@@ -62,17 +62,17 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="/about"
-                className="block text-gray-400 transition hover:text-orange-500"
+                 href="/#about"
+                 className="block text-gray-400 transition hover:text-orange-500"
               >
-                About Us
+                  About Us
               </Link>
 
-              <Link
-                href="/contact"
-                className="block text-gray-400 transition hover:text-orange-500"
-              >
-                Contact
+               <Link
+                  href="/#contact"
+                  className="block text-gray-400 transition hover:text-orange-500"
+                >
+                   Contact
               </Link>
 
             </div>
