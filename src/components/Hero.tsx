@@ -149,7 +149,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="w-full min-w-0 rounded-2xl">
+          <div className="w-full min-w-0 rounded-2xl border border-white/10 bg-white/5 p-5 shadow-xl backdrop-blur-sm sm:p-6 md:p-8">
             
             {/* Product Image */}
             <div className="mt-4 flex justify-center sm:mt-6">
