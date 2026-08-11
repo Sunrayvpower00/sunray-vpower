@@ -21,7 +21,7 @@ export default function Navbar() {
           className="flex min-w-0 items-center gap-2 sm:gap-3"
         >
           <img
-            src="/logo.png"
+            src="/sunray-vpower/logo.png"
             alt="Sunray VPower"
             className="h-9 w-auto object-contain sm:h-12"
           />

@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const heroSlides = [
   {
     brand: "LUMINOUS",
-    image: "/products/luminous.png",
+    image: "/sunray-vpower/products/luminous.png",
     tagline: "Advanced Power Backup Solutions",
     features: [
       "Pure Sine Wave Technology",
@@ -18,7 +18,7 @@ const heroSlides = [
   },
   {
     brand: "EXIDE",
-    image: "/products/exide.png",
+    image: "/sunray-vpower/products/exide.png",
     tagline: "Trusted Battery Technology",
     features: [
       "Long Backup",
@@ -28,7 +28,7 @@ const heroSlides = [
   },
   {
     brand: "LIVFAST",
-    image: "/products/livfast.png",
+    image: "/sunray-vpower/products/livfast.png",
     tagline: "Next Generation Energy Solutions",
     features: [
       "Smart Charging",
@@ -38,7 +38,7 @@ const heroSlides = [
   },
   {
     brand: "AMARON",
-    image: "/products/amaron.png",
+    image: "/sunray-vpower/products/amaron.png",
     tagline: "Power That Lasts Longer",
     features: [
       "Zero Maintenance",
