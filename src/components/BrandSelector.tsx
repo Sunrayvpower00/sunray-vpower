@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 const brands = [
   {
     name: "Luminous",
-    image: "/sunray-vpower/brands/luminous.png",
+    image: "/brands/luminous.png",
   },
   {
     name: "Exide",
-    image: "/sunray-vpower/brands/exide.png",
+    image: "/brands/exide.png",
     
   },
 ];

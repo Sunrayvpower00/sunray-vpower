@@ -28,7 +28,7 @@ const heroSlides = [
   },
   {
     brand: "LIVFAST",
-    image: "/sunray-vpower/products/livfast.png",
+    image: "/products/livfast.png",
     tagline: "Next Generation Energy Solutions",
     features: [
       "Smart Charging",
@@ -38,7 +38,7 @@ const heroSlides = [
   },
   {
     brand: "AMARON",
-    image: "/sunray-vpower/products/amaron.png",
+    image: "/products/amaron.png",
     tagline: "Power That Lasts Longer",
     features: [
       "Zero Maintenance",
