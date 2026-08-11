@@ -28,7 +28,7 @@ export default function LogoSplash() {
 
       <motion.img
 
-        src="/logo.png"
+        src="/sunray-vpower/logo.png"
 
         alt="Sunray VPower"
 
