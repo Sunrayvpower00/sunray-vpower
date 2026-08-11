@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const heroSlides = [
   {
     brand: "LUMINOUS",
-    image: "/sunray-vpower/products/luminous.png",
+    image: "/products/luminous.png",
     tagline: "Advanced Power Backup Solutions",
     features: [
       "Pure Sine Wave Technology",
@@ -18,7 +18,7 @@ const heroSlides = [
   },
   {
     brand: "EXIDE",
-    image: "/sunray-vpower/products/exide.png",
+    image: "/products/exide.png",
     tagline: "Trusted Battery Technology",
     features: [
       "Long Backup",
