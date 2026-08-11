@@ -1,7 +1,3 @@
-const BASE_PATH = "/sunray-vpower";
-
-const productImage = (path: string) => `${BASE_PATH}${path}`;
-
 export const products = [
   {
     id: 1,
@@ -10,7 +6,7 @@ export const products = [
     type: "DSP Cu Pure Sine",
     warranty: "42 Months",
     mrp: "₹5,794",
-    image: productImage("/products/exide/gqp12v700.png"),
+    image: "/products/exide/gqp12v700.png",
   },
   {
     id: 2,
@@ -19,7 +15,7 @@ export const products = [
     type: "DSP Cu Pure Sine",
     warranty: "42 Months",
     mrp: "₹6,012",
-    image: productImage("/products/exide/gqp12v900.png"),
+    image: "/products/exide/gqp12v900.png",
   },
   {
     id: 3,
@@ -28,7 +24,7 @@ export const products = [
     type: "DSP Cu Pure Sine",
     warranty: "42 Months",
     mrp: "₹6,887",
-    image: productImage("/products/exide/gqp12v1125.png"),
+    image: "/products/exide/gqp12v1125.png",
   },
   {
     id: 4,
@@ -37,7 +33,7 @@ export const products = [
     type: "MC Cu Pure Sine",
     warranty: "42 Months",
     mrp: "₹8,810",
-    image: productImage("/products/exide/gqp12v1450n.png"),
+    image: "/products/exide/gqp12v1450n.png",
   },
   {
     id: 5,
@@ -46,7 +42,7 @@ export const products = [
     type: "DSP Cu Pure Sine",
     warranty: "42 Months",
     mrp: "₹9,401",
-    image: productImage("/products/exide/gqp24v1625.png"),
+    image: "/products/exide/gqp24v1625.png",
   },
   {
     id: 6,
@@ -55,7 +51,7 @@ export const products = [
     type: "MC Al Pure Sine",
     warranty: "42 Months",
     mrp: "₹4,609",
-    image: productImage("/products/exide/star12v700.png"),
+    image: "/products/exide/star12v700.png",
   },
   {
     id: 7,
@@ -63,8 +59,8 @@ export const products = [
     model: "STAR12V900",
     type: "MC Al Pure Sine",
     warranty: "42 Months",
-    mrp: "₹4,824",
-    image: productImage("/products/exide/star12v900.png"),
+    mrp: "42 Months",
+    image: "/products/exide/star12v900.png",
   },
   {
     id: 8,
@@ -73,7 +69,7 @@ export const products = [
     type: "MC Al Pure Sine",
     warranty: "42 Months",
     mrp: "₹5,466",
-    image: productImage("/products/exide/star12v1125.png"),
+    image: "/products/exide/star12v1125.png",
   },
   {
     id: 9,
@@ -82,7 +78,7 @@ export const products = [
     type: "MC Al Pure Sine",
     warranty: "42 Months",
     mrp: "₹6,752",
-    image: productImage("/products/exide/star12v1375.png"),
+    image: "/products/exide/star12v1375.png",
   },
   {
     id: 10,
@@ -91,7 +87,7 @@ export const products = [
     type: "MC Al Pure Sine",
     warranty: "42 Months",
     mrp: "₹8,040",
-    image: productImage("/products/exide/star24v1625.png"),
+    image: "/products/exide/star24v1625.png",
   },
   {
     id: 11,
@@ -100,7 +96,7 @@ export const products = [
     type: "MC Al Pure Sine",
     warranty: "42 Months",
     mrp: "₹11,790",
-    image: productImage("/products/exide/star24v2550.png"),
+    image: "/products/exide/star24v2550.png",
   },
   {
     id: 12,
@@ -109,7 +105,7 @@ export const products = [
     type: "MC Aluminium",
     warranty: "42 Months",
     mrp: "₹4,009",
-    image: productImage("/products/exide/magic12v800.png"),
+    image: "/products/exide/magic12v800.png",
   },
   {
     id: 13,
@@ -118,7 +114,7 @@ export const products = [
     type: "MC Aluminium",
     warranty: "42 Months",
     mrp: "₹4,287",
-    image: productImage("/products/exide/magic12v875.png"),
+    image: "/products/exide/magic12v875.png",
   },
   {
     id: 14,
@@ -127,7 +123,7 @@ export const products = [
     type: "MC Aluminium",
     warranty: "42 Months",
     mrp: "₹4,609",
-    image: productImage("/products/exide/magic12v1125.png"),
+    image: "/products/exide/magic12v1125.png",
   },
   {
     id: 15,
@@ -136,7 +132,7 @@ export const products = [
     type: "MC Aluminium",
     warranty: "42 Months",
     mrp: "₹6,431",
-    image: productImage("/products/exide/magic24v1625.png"),
+    image: "/products/exide/magic24v1625.png",
   },
 
   // =======================
@@ -151,7 +147,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹14,500",
-    image: productImage("/products/luminous/icon1100.png"),
+    image: "/products/luminous/icon1100.png",
   },
   {
     id: 17,
@@ -161,7 +157,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹17,500",
-    image: productImage("/products/luminous/icon1600.png"),
+    image: "/products/luminous/icon1600.png",
   },
   {
     id: 18,
@@ -171,7 +167,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹10,500",
-    image: productImage("/products/luminous/optimus1250plus.png"),
+    image: "/products/luminous/optimus1250plus.png",
   },
   {
     id: 19,
@@ -181,7 +177,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹7,190",
-    image: productImage("/products/luminous/ecovoltneo750.png"),
+    image: "/products/luminous/ecovoltneo750.png",
   },
   {
     id: 20,
@@ -191,7 +187,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹7,540",
-    image: productImage("/products/luminous/ecovoltneo850.png"),
+    image: "/products/luminous/ecovoltneo850.png",
   },
   {
     id: 21,
@@ -201,7 +197,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹9,690",
-    image: productImage("/products/luminous/ecovoltneo1050.png"),
+    image: "/products/luminous/ecovoltneo1050.png",
   },
   {
     id: 22,
@@ -211,7 +207,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹9,750",
-    image: productImage("/products/luminous/ecovoltneo1250plus.png"),
+    image: "/products/luminous/ecovoltneo1250plus.png",
   },
   {
     id: 23,
@@ -221,7 +217,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹14,500",
-    image: productImage("/products/luminous/ecovoltneo1550.png"),
+    image: "/products/luminous/ecovoltneo1550.png",
   },
   {
     id: 24,
@@ -231,7 +227,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹12,000",
-    image: productImage("/products/luminous/ecovoltneo1650.png"),
+    image: "/products/luminous/ecovoltneo1650.png",
   },
   {
     id: 25,
@@ -241,7 +237,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹10,000",
-    image: productImage("/products/luminous/zelios1150.png"),
+    image: "/products/luminous/zelios1150.png",
   },
   {
     id: 26,
@@ -251,7 +247,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹10,250",
-    image: productImage("/products/luminous/zelios1250.png"),
+    image: "/products/luminous/zelios1250.png",
   },
   {
     id: 27,
@@ -261,7 +257,7 @@ export const products = [
     type: "Pure Sine Wave Inverter",
     warranty: "24 Months",
     mrp: "₹14,950",
-    image: productImage("/products/luminous/zelios1550.png"),
+    image: "/products/luminous/zelios1550.png",
   },
 
   // =======================
@@ -276,7 +272,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "24+12 Months",
     mrp: "₹10,200",
-    image: productImage("/products/luminous/ilst10036.png"),
+    image: "/products/luminous/ilst10036.png",
   },
   {
     id: 29,
@@ -286,7 +282,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "24+18 Months",
     mrp: "₹12,300",
-    image: productImage("/products/luminous/ilst12042.png"),
+    image: "/products/luminous/ilst12042.png",
   },
   {
     id: 30,
@@ -296,7 +292,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "24+24 Months",
     mrp: "₹13,800",
-    image: productImage("/products/luminous/rc15000pro.png"),
+    image: "/products/luminous/rc15000pro.png",
   },
   {
     id: 31,
@@ -306,7 +302,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "36+24 Months",
     mrp: "₹16,100",
-    image: productImage("/products/luminous/sc16060.png"),
+    image: "/products/luminous/sc16060.png",
   },
   {
     id: 32,
@@ -316,7 +312,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "36+12 Months",
     mrp: "₹17,900",
-    image: productImage("/products/luminous/iltj18148.png"),
+    image: "/products/luminous/iltj18148.png",
   },
   {
     id: 33,
@@ -326,7 +322,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "18+18 Months",
     mrp: "₹16,700",
-    image: productImage("/products/luminous/rc18000st.png"),
+    image: "/products/luminous/rc18000st.png",
   },
   {
     id: 34,
@@ -336,7 +332,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "24+24 Months",
     mrp: "₹17,200",
-    image: productImage("/products/luminous/rc18000stpro.png"),
+    image: "/products/luminous/rc18000stpro.png",
   },
   {
     id: 35,
@@ -346,7 +342,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "15+15 Months",
     mrp: "₹16,200",
-    image: productImage("/products/luminous/neo18030.png"),
+    image: "/products/luminous/neo18030.png",
   },
   {
     id: 36,
@@ -356,7 +352,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "18+18 Months",
     mrp: "₹16,900",
-    image: productImage("/products/luminous/rc18000.png"),
+    image: "/products/luminous/rc18000.png",
   },
   {
     id: 37,
@@ -366,7 +362,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "24+24 Months",
     mrp: "₹17,400",
-    image: productImage("/products/luminous/rc18000pro.png"),
+    image: "/products/luminous/rc18000pro.png",
   },
   {
     id: 38,
@@ -376,7 +372,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "30+24 Months",
     mrp: "₹18,000",
-    image: productImage("/products/luminous/pc18054pro.png"),
+    image: "/products/luminous/pc18054pro.png",
   },
   {
     id: 39,
@@ -386,7 +382,7 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "36+24 Months",
     mrp: "₹18,100",
-    image: productImage("/products/luminous/sc18060.png"),
+    image: "/products/luminous/sc18060.png",
   },
   {
     id: 40,
@@ -396,6 +392,6 @@ export const products = [
     type: "Tall Tubular Battery",
     warranty: "60+15 Months",
     mrp: "₹23,900",
-    image: productImage("/products/luminous/lm18075.png"),
+    image: "/products/luminous/lm18075.png",
   },
 ];
